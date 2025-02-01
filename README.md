@@ -1,9 +1,6 @@
 # nxc_bruter
 nxc_bruter is a lightweight Bash utility for testing credentials across multiple network services using nxc/NetExec. Designed to streamline password spraying, brute-force authentication, and credential verification, nxc_bruter automatically loops through your specified services and passes file-based credential lists directly to nxc.
 
-Below is a complete README.md file for your repository. In this version the tool is named **nxc_bruter** (inspired by nxcCredTester), and the README explains its features, installation, usage, and contribution guidelines. You can adjust or expand any section as needed.
-
-
 > **Note:** nxc_bruter relies on [nxc/NetExec](https://github.com/Pennyw0rth/NetExec) (or its alias netexec) being installed and available in your PATH.
 
 ## Features
