@@ -3,6 +3,7 @@ nxc_bruter is a lightweight Bash utility for testing credentials across multiple
 
 > **Note:** nxc_bruter relies on [nxc/NetExec](https://github.com/Pennyw0rth/NetExec) (or its alias netexec) being installed and available in your PATH.
 
+
 ## Features
 
 - **Multi-Protocol Support:** Test credentials on services such as:
@@ -27,6 +28,10 @@ Clone this repository and make the script executable:
 git clone https://github.com/Zyad-Elsayed/nxc_bruter.git
 cd nxc_bruter
 chmod +x nxc_bruter.sh
+```
+If you want to execute the tool from any where in the terminal 
+```bash
+sudo cp ./nxc_bruter.sh /usr/local/bin/nxc_bruter
 ```
 
 ## Usage
