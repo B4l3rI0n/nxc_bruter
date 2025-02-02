@@ -21,7 +21,7 @@ usage() {
     echo -e "${YELLOW}Usage:${NC} $0 -i <ip/range/file> -s <protocols: all or comma separated list> -u <username> [-p <password> | -H <hash> | -k]"
     echo "Example: $0 -i 192.168.1.100 -s all -u myuser -p mypass"
     echo "         $0 -i hosts.txt -s smb,winrm -u myuser -H '112233aabbcc'"
-    echo "         $0 -i 192.168.1.0/24 -s ssh -u myuser -k"
+    echo "         $0 -i 192.168.1.0/24 -s ssh -u myuser -p mypass -k"
     exit 1
 }
 
@@ -98,7 +98,7 @@ done
 
 # Looping through each protocol to run the command
 for protocol in "${selected_protocols[@]}"; do
-    # Print a colored separator line.
+
     echo -e "${BLUE}----------------------------------------${NC}"
     
 
