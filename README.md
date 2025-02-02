@@ -77,7 +77,7 @@ Run the script with the following syntax:
   ```bash
   ./nxc_bruter.sh -i hosts.txt -s ldap,rdp -u /path/to/users.txt -p /path/to/passwords.txt
   ```
-
+  [![asciicast](https://asciinema.org/a/0uFbKISe9rEx5qAX5w3IJd7ji.svg)](https://asciinema.org/a/0uFbKISe9rEx5qAX5w3IJd7ji)
 ## How It Works
 
 1. **Environment Check:**  
